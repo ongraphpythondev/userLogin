@@ -19,7 +19,7 @@ pip3 install virtualenv #if using linux(for python 3 and above)
 ## Installation and Running :
 
 ```bash
-git clone https://github.com/akanshi2019/userLogin.git
+git clone https://github.com/ongraphpythondev/userLogin
 
 cd userLogin
 
