@@ -1,0 +1,10 @@
+{% extends 'verify_app/base.html' %}
+{% block head %}
+        {% block title %}login_done{% endblock %}
+{% endblock %}
+
+{% block body %}
+        <h1>Welcome {{ new_user.first_name }}!</h1>
+<p>Your are successfully logged in.<b>For <a href="{% url 'verify_app:logout' %}">logout</a> click on tha  logout link</b></p>
+
+{% endblock %}
